@@ -33,5 +33,11 @@ class Mascota:
         return "La mascota es adulta"
      else:
         return "La mascota es joven"
+     
+    def peso_saludable(self):
+     if self.__peso>=5:
+        return "Peso saludable"
+     else:
+        return "Peso bajo"
 
 
