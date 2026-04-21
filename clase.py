@@ -15,3 +15,17 @@ class Mascota:
 
     def get_peso(self):
         return self.__peso
+    
+    def set_nombre(self,nombre):
+        self.__nombre=nombre
+
+    def set_especie(self,especie):
+        self.__especie=especie
+
+    def set_edad(self,edad):
+        self.__edad=edad
+
+    def set_peso(self,peso):
+        self.__peso=peso
+
+    
