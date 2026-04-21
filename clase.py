@@ -41,6 +41,14 @@ class Mascota:
         return "Peso bajo"
      
     def info(self):
-        print(f"Nombre:{self.__nombre},Especie:{self.__especie},Edad:{self.__edad},Peso:{self.__peso}")
+        return f"Nombre:{self.__nombre},Especie:{self.__especie},Edad:{self.__edad},Peso:{self.__peso}"
+mascota1 = Mascota("Lucca", "Gato", 3, 6.5)
+
+print(mascota1.info())
+print(mascota1.es_adulta())
+print(mascota1.peso_saludable())
+
+   
+
 
 
