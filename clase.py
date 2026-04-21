@@ -27,5 +27,11 @@ class Mascota:
 
     def set_peso(self,peso):
         self.__peso=peso
-
     
+    def es_adulta(self):
+     if self.__edad>=2:
+        return "La mascota es adulta"
+     else:
+        return "La mascota es joven"
+
+
