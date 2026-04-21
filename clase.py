@@ -39,5 +39,8 @@ class Mascota:
         return "Peso saludable"
      else:
         return "Peso bajo"
+     
+    def info(self):
+        print(f"Nombre:{self.__nombre},Especie:{self.__especie},Edad:{self.__edad},Peso:{self.__peso}")
 
 
